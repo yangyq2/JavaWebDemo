@@ -1,0 +1,36 @@
+body{
+    /* view height */
+    /* height: 100vh; */
+    background-image: url('../img/1635252903266.jpg');
+    /* 图片平铺页面上 */
+    background-size: 100% auto;
+}
+/* p{
+    color:red;
+    /* size:10px; 
+    font-size:10px;
+} */
+.aa{
+    width:fit-content;
+    padding:20px 80px 20px 80px;
+    /* border: 1px solid red; */
+    border-radius: 7px;
+    margin: 200px auto;
+    box-shadow: 1px 1px 7px 1px rgba(128, 128, 128,0.8);
+}
+.aa .logo{
+    margin: 0px auto;
+    width:150px;
+    height:150px;
+    /* 控制控件在 Y 轴上移动 */
+    transform: translateY(-40px);
+
+    border: 1px solid rgb(233, 233, 90);
+    border-radius: 50%;
+    background-color: white;
+    /* 阴影 */
+    box-shadow: 2px 2px 14px 1px gray;
+}
+ .aa .logo img{
+    width: 100%;
+ }
